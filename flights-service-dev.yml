@@ -3,7 +3,7 @@ spring:
     name: flights-service
   datasource:
     username: root
-    password: ''
+    password: root
     url: jdbc:mysql://localhost:3306/flightdb?createDatabaseIfNotExists=true
   jpa:
     properties:
